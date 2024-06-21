@@ -1,0 +1,256 @@
+*, html, body {
+    margin:0;
+    padding:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.FContainer {
+    display: flex;
+    width: 100%;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    background-color: #222;
+    box-shadow: 0 7px 10px 0 rgba(255, 2, 2, 0.5);
+}
+.brand {
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    padding: 15px;
+}
+.firstname {
+    color: white;
+    font-weight: 700;
+}
+.lastname {
+    color: red;
+    padding-left: 4px;
+    font-weight: 700;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation li {
+    list-style-type: none;
+    padding: 15px;
+}
+.navigation li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;  
+}
+.navigation >li>img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+}
+.navigation >li> img:hover {
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    transition: all ease-in-out;
+}
+.navigation > li > a:hover {
+    color: red;
+    transition: all .3s ease-in-out;
+    background-color: white;
+    padding: 15px;
+    border-radius: 40px;
+    font-weight:bolder ;
+}
+     /* Home */
+
+.teks {
+    /* text-align: center; */
+    margin-top: 190px;
+    margin-left: 140px;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    border-radius: 10%;
+    padding: 20px;
+    opacity: 70%; 
+}
+
+p {
+    font-family: 'IBM Plex Mono', monospace;
+}
+body {
+    background-image: url(https://i.pinimg.com/originals/80/f7/e4/80f7e41346e786fe41b46c23096cabaf.gif);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.poto {
+    height: 350px;
+    margin-top: 60px;
+    margin-left: 200px;
+    border-radius: 0 20% 20% 20%;
+    box-shadow: 0px 0px 10px red;
+}
+footer {
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    color: white;
+    background-color:#222;
+    text-align: center;
+    font-weight: bold;
+    opacity: 70%; 
+}
+
+    /* Contact */
+
+.profile {
+    color: white;
+    margin-top:140px;
+    margin-left:520px;
+    font-style: italic;
+    opacity: 70%;
+    text-align: center;
+}
+.p1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    margin-left: 650px;
+    font-style: italic;
+    opacity: 70%;
+}
+.github {
+    height: 105px;
+    width: 105px;
+    box-shadow: 0px 0px 10px rgb(252, 252, 252);
+    margin-top: -150px;
+    margin-left: 50px;
+    border-radius: 30%;   
+}
+.github:hover {
+    height: 120px;
+    width: 120px;
+    transition: ease-in-out;
+    border-radius: 30%;
+}
+.wa {
+    height: 105px;
+    width: 105px;
+    box-shadow: 0px 0px 10px rgb(4, 255, 4);
+    margin-top: 40px;
+    margin-left: 520px;
+    border-radius: 30%;
+}
+.wa:hover {
+    height: 120px;
+    width: 120px;
+    transition: ease-in-out;
+    border-radius: 30%;
+}
+.ig {
+    height: 100px;
+    box-shadow: 0px 0px 10px rgb(247, 2, 133);
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 30%;
+}
+.ig:hover {
+    height: 115px;
+    width: 115px;
+    transition: ease-in-out;
+    border-radius: 30%;
+}
+.fotodiri  {
+    height: 340px;
+    margin-right: 500px;
+    margin-top: -290px;
+    margin-left: 120px;
+    border-radius:50%;
+    box-shadow: 0px 0px 10px red;
+}
+.fotodiri:hover {
+    height: 355px;
+    width: 355px;
+    transition: ease-in-out;
+    border: radius 50%; ;
+}
+
+     /* Achievement */
+
+.para {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    font-size: 20px;
+    font-style: italic;
+    opacity: 70%;
+    margin-left: 400px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.serti {
+    height: 390px;
+    margin-top: 40px;
+    margin-left: 350px;
+}
+
+main {
+    display: flex;
+}
+
+.poto {
+    margin-left: 230px;
+    margin-top: 100px;
+    height: 330px;
+}
+main {
+    flex-direction: column;
+}
+.teks {
+    margin-top: 60px;
+    margin-left: 80px;
+}
+footer {
+    margin-top: 180px;
+}
+.fotodiri {
+    margin-top: -900px;
+    margin-left: 390px;
+    height: 280px;
+}
+.profile {
+    margin-left: -0px;
+    margin-top: 150px;
+    font-size: 20px;
+}
+.p1 {
+    margin-left: -0px;
+    font-size: 20px;
+}
+.wa {
+    margin-left: -0px;
+    margin-top: 150px;
+    height: 90px;
+    width: 90px;
+}
+.ig {
+    height: 90px;
+}
+.github {
+    height: 85px;
+    width: 85px;
+}
+.para {
+    margin-top: 90px;
+    font-size: 15px;
+    margin-left: -0px;
+}
+.serti {
+    margin-top: 60px;
+    height: 250px;
+    margin-left: -0px;
+}
